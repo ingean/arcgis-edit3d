@@ -1,0 +1,17 @@
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#losDiv {
+  padding: 1em;
+}
+
+.esri-elevation-profile.esri-widget--panel {
+  width: 650px !important;
+  padding: 1em;
+}

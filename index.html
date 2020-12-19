@@ -7,30 +7,31 @@
       content="initial-scale=1,maximum-scale=1,user-scalable=no"
     />
     <title>
-      Edit features in 3D with the Editor widget | Sample | ArcGIS API for
-      JavaScript 4.17
+      Demo av redigering og analyse i 3D med ArcGIS
     </title>
 
     <link
       rel="stylesheet"
-      href="https://js.arcgis.com/4.17/esri/themes/light/main.css"
+      href="https://js.arcgis.com/4.18/esri/themes/light/main.css"
     />
-    <link rel="stylesheet" type="text/css" href="css/edit3d.css" />
-    <script src="https://js.arcgis.com/4.17/"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="https://js.arcgis.com/4.18/"></script>
   </head>
 
   <body>
-    <div id="viewDiv"></div>
-    <div id="editorDiv"></div>
-    <div id="losDiv" class="esri-widget">
-      <h3>Siktlinjer</h3>
-      <input type="checkbox" id="layerVisibility" checked /><label
-        for="layerVisibility"
-        >Vis mulighetsrom</label>
-      <div id="losWidget"></div>
+    <div id="viewDiv" class="esri-widget">
+      <div id="viewDiv">
+        <div id="losDiv" class="esri-widget">
+          <h3>Siktlinjer</h3>
+          <input type="checkbox" id="layerVisibility" checked /><label
+            for="layerVisibility"
+            >Vis mulighetsrom</label>
+          <div id="losWidget"></div>
+        </div>
+      </div> 
     </div>
-
+  
     <!-- Script files-->
-    <script type="text/javascript" src="js/edit3d.js"></script> 
+    <script type="text/javascript" src="main.js"></script> 
   </body>
 </html>
